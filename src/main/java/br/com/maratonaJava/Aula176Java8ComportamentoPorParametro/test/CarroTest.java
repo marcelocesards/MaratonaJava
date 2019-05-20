@@ -1,13 +1,13 @@
-package br.com.maratonaJava.Aula177Java8ComportamentoPorParametro.test;
+package br.com.maratonaJava.Aula176Java8ComportamentoPorParametro.test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 
-import br.com.maratonaJava.Aula177Java8ComportamentoPorParametro.Carro;
-import br.com.maratonaJava.Aula177Java8ComportamentoPorParametro.strategias.CarroCorVerdePredicate;
-import br.com.maratonaJava.Aula177Java8ComportamentoPorParametro.strategias.CarroPredicate;
+import br.com.maratonaJava.Carro;
+import br.com.maratonaJava.Aula176Java8ComportamentoPorParametro.strategias.CarroCorVerdePredicate;
+import br.com.maratonaJava.Aula176Java8ComportamentoPorParametro.strategias.CarroPredicate;
 
 public class CarroTest {
 	public static void main(String[] args) {

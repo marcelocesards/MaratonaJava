@@ -1,4 +1,4 @@
-package br.com.maratonaJava.Aula177Java8ComportamentoPorParametro;
+package br.com.maratonaJava;
 
 public class Carro {
 	private String nome = "Gol";

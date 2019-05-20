@@ -1,6 +1,6 @@
-package br.com.maratonaJava.Aula177Java8ComportamentoPorParametro.strategias;
+package br.com.maratonaJava.Aula176Java8ComportamentoPorParametro.strategias;
 
-import br.com.maratonaJava.Aula177Java8ComportamentoPorParametro.Carro;
+import br.com.maratonaJava.Carro;
 
 public class CarroCorVerdePredicate implements CarroPredicate{
 
