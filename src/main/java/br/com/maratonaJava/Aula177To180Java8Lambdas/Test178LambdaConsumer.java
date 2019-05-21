@@ -26,7 +26,8 @@ public class Test178LambdaConsumer {
 		});
 		System.out.println(list);
 		list = map(pessoas, s -> s.length());
-
+		System.out.println(list);
+		list = map(pessoas, String::length);
 		System.out.println(list);
 	}
 
