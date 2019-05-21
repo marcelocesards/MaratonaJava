@@ -1,10 +1,10 @@
-package br.com.maratonaJava.Aula177Java8Lambdas;
+package br.com.maratonaJava.Aula177To180Java8Lambdas;
 
 import br.com.maratonaJava.Carro;
 import br.com.maratonaJava.Aula176Java8ComportamentoPorParametro.strategias.CarroPredicate;
 import br.com.maratonaJava.factory.CarroFactory;
 
-public class TestLambda {
+public class Test177LambdaPredicate {
 	public static void main(String[] args) {
 		Carro carro = CarroFactory.createCarroFake();
 		CarroPredicate carroPredicate = new CarroPredicate() {
