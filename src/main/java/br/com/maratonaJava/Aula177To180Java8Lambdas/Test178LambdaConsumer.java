@@ -6,6 +6,9 @@ import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.IntConsumer;
+import java.util.function.Supplier;
+
+import br.com.maratonaJava.Carro;
 
 public class Test178LambdaConsumer {
 
@@ -29,6 +32,11 @@ public class Test178LambdaConsumer {
 		System.out.println(list);
 		list = map(pessoas, String::length);
 		System.out.println(list);
+		
+		Supplier<String> sup = () -> "oi";
+		System.out.println(sup.get());
+		Supplier<Carro> sup2 = () -> new Carro("qualquer", "vermelho", 1995);
+		System.out.println(sup2.get());
 	}
 
 	private static <T> void printAll(List<T> asList, Consumer<T> consumer) {
